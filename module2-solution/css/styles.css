@@ -1,4 +1,4 @@
-/********** Base styles **********/
+
 * {
   box-sizing: border-box;
   font-family: Helvetica;
@@ -6,6 +6,7 @@
 
 .row {
   width: 100%;
+  position: absolute;
 }
 
 h1 {
@@ -28,17 +29,18 @@ p {
 }
 
 section {
-  position: relative;
   border: 1px solid black;
   margin: 10px;
   background-color: #C0C0C0;
+  height: 100%;  
+  position: relative;
 }
 
 section>h2 {
-  float: right;
-  /*position: absolute;
+  /*float: right;*/
+  position: absolute;
   top: 0px;
-  right: 0px;*/
+  right: 0px;
   margin: 0px;
   border-bottom: 1px solid black;
   border-left: 1px solid black;
