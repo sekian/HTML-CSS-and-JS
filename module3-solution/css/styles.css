@@ -11,7 +11,7 @@
 #collapsable-nav a {
     color: black;
     border-bottom: 2px solid black;
-    text-align: center;
+    
     margin: 0;
 }
 
@@ -67,7 +67,6 @@ p {
 
 h2 {
     padding-top: 10px;
-    text-align: center
 }
 
 #back-to-top {
