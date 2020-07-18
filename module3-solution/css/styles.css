@@ -69,3 +69,16 @@ h2 {
     padding-top: 10px;
     text-align: center
 }
+
+#back-to-top {
+    position: sticky;
+    bottom: 0px;
+    left: 100em;
+    padding-bottom: 2px;
+    background-color: transparent;
+    color: default;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
