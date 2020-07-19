@@ -10,8 +10,7 @@
 
 #collapsable-nav a {
     color: black;
-    border-bottom: 2px solid black;
-    
+    border-bottom: 2px solid black;    
     margin: 0;
 }
 
@@ -36,6 +35,10 @@
     border: 1px solid #999999;
 }
 
+.container {
+    width: 100%;
+}
+
 @media (min-width: 768px) {
     #collapsable-nav {
         background-color: #999999;
@@ -43,6 +46,7 @@
 }
 
 @media (max-width: 767px) {
+
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -55,6 +59,7 @@
 
 section {
     background-color: lightgray;
+    width: 100%;
 }
 
 p {
@@ -65,19 +70,16 @@ p {
     text-align: justify;
 }
 
-h2 {
+h3 {
     padding-top: 10px;
 }
 
 #back-to-top {
     position: sticky;
     bottom: 0px;
-    left: 100em;
+    left: 100%;
     padding-bottom: 2px;
     background-color: transparent;
     color: default;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
