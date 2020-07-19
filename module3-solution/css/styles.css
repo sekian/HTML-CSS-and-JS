@@ -1,20 +1,27 @@
-#header-nav {
+.navbar {
     background-color: #999999;
     border-radius: 0;
     border: 0;
-  }
-
-#collapsable-nav {
-    background-color: whitesmoke;
 }
 
-#collapsable-nav a {
+.navbar-nav {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-collapse {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
     color: black;
     border-bottom: 2px solid black;    
     margin: 0;
 }
 
-#collapsable-nav a:hover {
+.navbar-default .navbar-nav > li > a:hover {
     background: #E7E7E7;
 }
 
@@ -30,23 +37,8 @@
     line-height: .75;
 }
 
-.navbar-default {
-    background-color: #999999;
-    border: 1px solid #999999;
-}
-
 .container {
     width: 100%;
-}
-
-@media (min-width: 768px) {
-    #collapsable-nav {
-        background-color: #999999;
-    }
-}
-
-@media (max-width: 767px) {
-
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -82,4 +74,3 @@ h3 {
     background-color: transparent;
     color: default;
 }
-
